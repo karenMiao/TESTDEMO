@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  DEMOTEST
+//
+//  Created by MJM on 1/1/16.
+//  Copyright © 2016 MJM. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+
+
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+//ui
+#define kDeviceWidth [UIScreen mainScreen].bounds.size.width
+#define kDeviceHeight [UIScreen mainScreen].bounds.size.height
+#define mochaColorGreen [UIColor colorWithRed:0x61/255.0 green:0xb1/255.0 blue:0x1f/255.0 alpha:1]
+#define mochaColorGreen2 [UIColor colorWithRed:0x85/255.0 green:0xc4/255.0 blue:0x41/255.0 alpha:1]
+#define mochaViewBackgroundColor [UIColor colorWithWhite:0xf3/255.0 alpha:1]
+#define iPhone5ImageSuffix @"-568h"
+#define statusBarHeight 20
+#define navBarHeight 44
+#define tabBarHeight 49
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "PureLayout.h"
+#import "UIColor+YY.h"
+
+#endif

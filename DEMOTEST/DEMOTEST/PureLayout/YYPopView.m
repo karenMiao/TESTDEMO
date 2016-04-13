@@ -13,6 +13,9 @@ CGFloat const bottomLineHeight = 3.0;//每个item底部线的高度
 
 @interface YYPopView()
 
+
+
+
 /*
  * 按钮items数组
  */
